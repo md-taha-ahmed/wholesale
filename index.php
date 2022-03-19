@@ -10,4 +10,3 @@
 			header("Location:customerHome.php");
 		}
 	}
-?>
