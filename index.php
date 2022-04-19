@@ -3,7 +3,7 @@
 	if(!isset($_SESSION['loginUser'])){
 		header("Location:loginPage.php");
 	}else{
-		if($_SESSION['loginUser']=='shridhar'){
+		if($_SESSION['loginUser']=='admin@gmail.com'){
 			header("Location:adminHome.php");
 		}
 		else{
